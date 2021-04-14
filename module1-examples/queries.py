@@ -33,10 +33,3 @@ character_items = """
 SELECT character_id, COUNT(*)
 FROM charactercreator_character_inventory
 GROUP BY character_id;"""
-
-
-
-
-
-
-
