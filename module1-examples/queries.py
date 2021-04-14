@@ -6,7 +6,6 @@ select_all = '''
 SELECT *
 FROM charactercreator_character;'''
 
-
 # Selects the total number of Characters in charactercreator_character
 total_characters = """
 SELECT DISTINCT(COUNT(character_id))
